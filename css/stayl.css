@@ -17,7 +17,7 @@ body {
   background-color: #ffffff;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -221,10 +221,12 @@ h1 {
 
 .picture {
   margin: 0;
+  padding: 0;
 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  box-sizing: border-box;
 }
 
 .item {
@@ -471,8 +473,6 @@ h3 {
 /* подвал mail */
 .email {
   margin-left: 93px;
-  width: 570px;
-  height: 86px;
   margin-top: 12px;
 }
 .top-text {
@@ -537,4 +537,5 @@ h3 {
   left: 518px;
   margin: 0;
   padding: 0;
+  margin-left: 10px;
 }
